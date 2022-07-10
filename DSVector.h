@@ -52,7 +52,7 @@ DSVector<T>::DSVector(const DSVector& arg) {
 template <typename T>
 DSVector<T>::~DSVector() {
     // deletes dynamically allocated array
-    delete [] data;
+    this->clear();
 }
 
 template <typename T>
