@@ -1,6 +1,4 @@
-//
-// Created by Mark Fontenot on 6/2/2021.
-//
+
 
 #ifndef PA01_SENTIMENT_DSSTRING_H
 #define PA01_SENTIMENT_DSSTRING_H
@@ -29,7 +27,7 @@ private:
      *    the c-string functions.
      **/
      char* s; // C-string
-     // C-strinng helper functions
+     // C-string helper functions
      int strlen(const char* input);
      char* strcpy(char* destination, const char* source);
      int strcmp(const char* str1, const char* str2) const;
